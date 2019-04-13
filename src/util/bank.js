@@ -1,0 +1,18 @@
+export default [
+    { bankCode: 'BOC', bankName: '中国银行'},
+    { bankCode: 'ABC', bankName: '农业银行'},
+    { bankCode: 'ICBC', bankName: '工商银行'},
+    { bankCode: 'CCB', bankName: '建设银行'},
+    { bankCode: 'BCM', bankName: '交通银行'},
+    { bankCode: 'CMB', bankName: '招商银行'},
+    { bankCode: 'PSBC', bankName: '邮储银行'},
+    { bankCode: 'CMBC', bankName: '民生银行'},
+    { bankCode: 'HXB', bankName: '华夏银行'},
+    { bankCode: 'CIB', bankName: '兴业银行'},
+    { bankCode: 'CITIC', bankName: '中信银行'},
+    { bankCode: 'SPDB', bankName: '浦发银行'},
+    { bankCode: 'CGB', bankName: '广发银行'},
+    { bankCode: 'PAB', bankName: '平安银行'},
+    { bankCode: 'BOB', bankName: '北京银行'},
+    { bankCode: 'BOS', bankName: '上海银行'},
+]

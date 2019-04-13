@@ -1,0 +1,151 @@
+#root,
+.view-container{
+  height: 100%;
+}
+
+.view-side{
+  background: #2d323e;
+  ul{
+    padding-top: 22px;
+  }
+  li{
+    padding: 3px 0;
+    a{
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 40px;
+      padding-left: 30px;
+      transition: all .2s ease-in-out;
+      display: block;
+      &:hover,
+      &.active{
+        background: #039be5;
+        color: #fff;
+      }
+      i{
+        margin-right: 14px;
+      }
+    }
+  }
+}
+.view-logo{
+  width: 200px;
+  font-size: 26px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: #c4d0d9;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-weight: 600;
+  em{
+    font-size: 20px;
+    background: #c4d0d9;
+    color: #1c2b36;
+    border-radius: 3px;
+    padding: 1px 4px;
+  }
+  i{
+    color: #2196f3;
+  }
+}
+.view-header{
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0,0,0,.05), 0 1px 0 rgba(0,0,0,.05);
+  display: flex;
+  padding: 0;
+  height: 50px!important;
+  position: sticky;
+  z-index: 8;
+  top: 0;
+  .view-header-left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #58666e;
+    cursor: pointer;
+  }
+  .view-user{
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    color: #adb7be;
+    .xi{
+      margin-left: 6px;
+    }
+  }
+}
+
+.view-user-popver{
+  p{
+    margin-bottom: 0;
+  }
+  a{
+    display: block;
+    color: #212529;
+    font-size: 15px;
+    &:hover
+    {
+      color: #00a8ff;
+    }
+    i{
+      margin-right: 6px;
+      font-weight: 700;
+    }
+  }
+}
+
+.view-main{
+  padding: 20px;
+  .view-main-content{
+    background: #fff;
+    padding: 30px;
+  }
+}
+
+
+.filter-form{
+  padding-bottom: 15px;
+}
+.filter-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  label{
+    margin-right: 8px;
+  }
+  .filter-auto{
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+.toggle-type{
+
+}
+
+.key-rows{
+  display: flex;
+  strong{
+    flex: 1;
+    min-width: 0;
+  }
+  .key-refresh{
+
+  }
+}
+
+.list-tag{
+  .ant-tag{
+    margin-bottom: 5px;
+  }
+}
+
+#payform{
+  display: none;
+}
