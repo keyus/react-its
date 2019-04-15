@@ -22,7 +22,7 @@ export default (state = initState, action) => {
         case 'LOGOUT' :
             localStorage.removeItem('token');
             localStorage.removeItem('user');
-            history.push('/login')
+            setTimeout(()=>history.push('/login'))
             return {};
         default:
             return states;
